@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-appPrueba02/Pods-appPrueba02-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/FLKAutoLayout/FLKAutoLayout.framework
+${BUILT_PRODUCTS_DIR}/ORStackView/ORStackView.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
