@@ -101,6 +101,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1X-Ce-mgf">
+                                <rect key="frame" x="64" y="449" width="297" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="go to SeconStoryboard"/>
+                                <connections>
+                                    <segue destination="PjF-IK-RAz" kind="show" id="1Jv-c0-tfy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ocd-ff-NU3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -114,6 +123,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdK-ll-Ibf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1737.68115942029" y="118.52678571428571"/>
+        </scene>
+        <!--SecondStoryboard-->
+        <scene sceneID="3Gc-Ip-P8C">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SecondStoryboard" id="PjF-IK-RAz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kth-8O-Smu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UfM-dQ-jwn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2433" y="-63"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dyp-Kp-2OP">

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5BCE5A0F27F10ACD00246373 /* MiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCE5A0E27F10ACD00246373 /* MiViewController.swift */; };
+		5BCE5A1227F118B000246373 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCE5A1127F118B000246373 /* SecondStoryboard.storyboard */; };
 		5BD8735027F06ABD00DC18A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8734F27F06ABD00DC18A3 /* AppDelegate.swift */; };
 		5BD8735227F06ABD00DC18A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8735127F06ABD00DC18A3 /* SceneDelegate.swift */; };
 		5BD8735427F06ABD00DC18A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8735327F06ABD00DC18A3 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		5BCE5A0E27F10ACD00246373 /* MiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiViewController.swift; sourceTree = "<group>"; };
+		5BCE5A1127F118B000246373 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		5BD8734C27F06ABD00DC18A3 /* appPrueba02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appPrueba02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD8734F27F06ABD00DC18A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD8735127F06ABD00DC18A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				5BD8735A27F06ABF00DC18A3 /* LaunchScreen.storyboard */,
 				5BD8735D27F06ABF00DC18A3 /* Info.plist */,
 				5BCE5A0E27F10ACD00246373 /* MiViewController.swift */,
+				5BCE5A1127F118B000246373 /* SecondStoryboard.storyboard */,
 			);
 			path = appPrueba02;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				5BD8735C27F06ABF00DC18A3 /* LaunchScreen.storyboard in Resources */,
 				5BD8735927F06ABF00DC18A3 /* Assets.xcassets in Resources */,
 				5BD8735727F06ABD00DC18A3 /* Main.storyboard in Resources */,
+				5BCE5A1227F118B000246373 /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
