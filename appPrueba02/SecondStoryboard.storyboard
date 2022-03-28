@@ -8,29 +8,63 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Outlets View Controller-->
         <scene sceneID="ErE-ew-U5E">
             <objects>
-                <viewController id="fnC-kV-bJq" sceneMemberID="viewController">
+                <viewController id="fnC-kV-bJq" customClass="OutletsViewController" customModule="appPrueba02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LJE-cY-xqW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AWc-fi-XkH">
-                                <rect key="frame" x="87" y="291" width="240" height="314"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AWc-fi-XkH">
+                                <rect key="frame" x="113" y="392" width="188" height="233"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="im0-da-a3A">
+                                <rect key="frame" x="186" y="138" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG6-iF-i5H">
+                                <rect key="frame" x="161" y="184" width="92" height="30"/>
+                                <state key="normal" title="Button Outlet"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcS-p4-A4t">
+                                <rect key="frame" x="159" y="233" width="96" height="30"/>
+                                <state key="normal" title="Button Accion"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="fnC-kV-bJq" eventType="touchUpInside" id="fcc-gg-bKr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ec-lc-z0m">
+                                <rect key="frame" x="176" y="286" width="58" height="30"/>
+                                <state key="normal" title="Selector"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="j11-Cx-ROO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="HG6-iF-i5H" firstAttribute="centerX" secondItem="LJE-cY-xqW" secondAttribute="centerX" id="11U-mX-Kzm"/>
                             <constraint firstItem="AWc-fi-XkH" firstAttribute="centerX" secondItem="LJE-cY-xqW" secondAttribute="centerX" id="7NE-vv-xf2"/>
+                            <constraint firstItem="HG6-iF-i5H" firstAttribute="top" secondItem="im0-da-a3A" secondAttribute="bottom" constant="25" id="H53-et-cbJ"/>
+                            <constraint firstItem="im0-da-a3A" firstAttribute="top" secondItem="j11-Cx-ROO" secondAttribute="top" constant="50" id="LEg-nf-KoW"/>
+                            <constraint firstItem="5Ec-lc-z0m" firstAttribute="top" secondItem="kcS-p4-A4t" secondAttribute="bottom" constant="-2" id="P6Q-fV-KIP"/>
+                            <constraint firstItem="kcS-p4-A4t" firstAttribute="centerX" secondItem="LJE-cY-xqW" secondAttribute="centerX" id="bsb-iF-khm"/>
+                            <constraint firstItem="5Ec-lc-z0m" firstAttribute="centerX" secondItem="LJE-cY-xqW" secondAttribute="centerX" id="djH-g5-m5b"/>
+                            <constraint firstItem="im0-da-a3A" firstAttribute="centerX" secondItem="LJE-cY-xqW" secondAttribute="centerX" id="e3H-Kt-YHD"/>
+                            <constraint firstItem="kcS-p4-A4t" firstAttribute="top" secondItem="HG6-iF-i5H" secondAttribute="bottom" constant="19" id="jxq-q2-twD"/>
                             <constraint firstItem="AWc-fi-XkH" firstAttribute="top" secondItem="j11-Cx-ROO" secondAttribute="top" constant="203" id="mnq-dD-ROz"/>
                             <constraint firstItem="AWc-fi-XkH" firstAttribute="centerY" secondItem="LJE-cY-xqW" secondAttribute="centerY" id="wxb-XM-NNb"/>
                             <constraint firstItem="AWc-fi-XkH" firstAttribute="leading" secondItem="j11-Cx-ROO" secondAttribute="leading" constant="87" id="y6h-H6-bcS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i19-Rv-7wt"/>
+                    <connections>
+                        <outlet property="buttonTop" destination="HG6-iF-i5H" id="LF7-fI-Djt"/>
+                        <outlet property="labelTop" destination="im0-da-a3A" id="xii-4A-X7b"/>
+                        <outlet property="selectorButton" destination="5Ec-lc-z0m" id="kj5-It-mHx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ctj-Cq-CXu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
